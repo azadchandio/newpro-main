@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@layer base {
+    body {
+        @apply antialiased;
+    }
+    h1,
+    h2,
+    h3,
+    p,
+    span,
+    button {
+        font-family: 'CustomFont', sans-serif;
+    }
+}
+
+.homepage-text {
+    margin-left: 52px; /* Adjust this value to move text more or less to the right */
+}
+/* .homepage-darkblue{
+    color: #1e2a4a;
+} */
