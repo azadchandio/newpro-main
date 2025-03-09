@@ -8,7 +8,7 @@ function App() {
 
   const faqCards = [
     {
-      question: "¿Tengo que registrarme para hablar con Clara?",
+      question: "¿Tengo que registrarme para hablar con Claraa?",
       answer: "Having an FAQ section is a great way to present information about your training program. Using the question-and-answer format makes it more relatable for users."
     },
     {
